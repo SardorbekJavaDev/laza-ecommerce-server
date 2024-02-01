@@ -20,9 +20,12 @@ import java.util.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "_user")
-public class User extends Base implements UserDetails {
+@Table(name = "users")
+public class User implements UserDetails {
 
+    @Id
+    @GeneratedValue
+    private Integer id;
     @Column
     private String firstname;
     @Column
@@ -39,7 +42,7 @@ public class User extends Base implements UserDetails {
 
 
     @Column(name = "attach_id")
-    private UUID attachId;
+    private Integer attachId;
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "attach_id", updatable = false, insertable = false)
     private Attach attach;

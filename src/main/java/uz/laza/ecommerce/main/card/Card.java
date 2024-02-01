@@ -3,11 +3,10 @@ package uz.laza.ecommerce.main.card;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import uz.laza.ecommerce.main.user.User;
 import uz.laza.ecommerce.main.brand.Brand;
+import uz.laza.ecommerce.main.user.User;
 
 import java.time.LocalDate;
-import java.util.UUID;
 
 @Getter
 @Setter
@@ -27,7 +26,7 @@ public class Card extends Brand {
     private CardType type;
 
     @Column(name = "user_id")
-    private UUID userId;
+    private Integer userId;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id",updatable = false,insertable = false)
     private User user;

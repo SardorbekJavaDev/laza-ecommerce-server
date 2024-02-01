@@ -4,10 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import uz.laza.ecommerce.main.Base;
-import uz.laza.ecommerce.main.user.User;
 import uz.laza.ecommerce.main.product.Product;
-
-import java.util.UUID;
+import uz.laza.ecommerce.main.user.User;
 
 @Getter
 @Setter
@@ -23,13 +21,13 @@ public class Income extends Base {
     private Integer profitPer;
 
     @Column(name = "product_id")
-    private UUID productId;
+    private Integer productId;
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "product_id", updatable = false, insertable = false)
     private Product product;
 
     @Column(name = "user_id", nullable = false)
-    private UUID userId;
+    private Integer userId;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", insertable = false, updatable = false)
     private User user;

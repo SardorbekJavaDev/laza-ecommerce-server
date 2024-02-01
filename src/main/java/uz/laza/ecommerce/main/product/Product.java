@@ -7,7 +7,6 @@ import uz.laza.ecommerce.main.Base;
 import uz.laza.ecommerce.main.attach.Attach;
 
 import java.util.List;
-import java.util.UUID;
 
 @Getter
 @Setter
@@ -30,7 +29,7 @@ public class Product extends Base {
     private Integer count;
 
     @Column(name = "attach_id")
-    private UUID attachId;
+    private Integer attachId;
     @OneToMany(fetch = FetchType.LAZY)
     @JoinColumn(name = "attach_id", updatable = false, insertable = false)
     private List<Attach> attach;

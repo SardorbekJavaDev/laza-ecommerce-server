@@ -7,11 +7,10 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import uz.laza.ecommerce.main.user.User;
 
 import java.util.Optional;
-import java.util.UUID;
 
-public class ApplicationAuditAware implements AuditorAware<UUID> {
+public class ApplicationAuditAware implements AuditorAware<Integer> {
     @Override
-    public Optional<UUID> getCurrentAuditor() {
+    public Optional<Integer> getCurrentAuditor() {
         Authentication authentication =
                 SecurityContextHolder
                         .getContext()

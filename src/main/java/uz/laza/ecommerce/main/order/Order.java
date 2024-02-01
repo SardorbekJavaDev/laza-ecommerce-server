@@ -7,8 +7,6 @@ import uz.laza.ecommerce.main.Base;
 import uz.laza.ecommerce.main.product.Product;
 import uz.laza.ecommerce.main.user.User;
 
-import java.util.UUID;
-
 @Getter
 @Setter
 @Entity
@@ -24,13 +22,13 @@ public class Order extends Base {
     private OrderStatus status;
 
     @Column(name = "product_id")
-    private UUID productId;
+    private Integer productId;
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "product_id", updatable = false, insertable = false)
     private Product product;
 
     @Column(name = "user_id", nullable = false)
-    private UUID userId;
+    private Integer userId;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", insertable = false, updatable = false)
     private User user;

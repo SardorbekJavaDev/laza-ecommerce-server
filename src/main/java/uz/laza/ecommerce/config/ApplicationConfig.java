@@ -15,8 +15,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import uz.laza.ecommerce.auditing.ApplicationAuditAware;
 import uz.laza.ecommerce.main.user.UserRepository;
 
-import java.util.UUID;
-
 @Configuration
 @RequiredArgsConstructor
 public class ApplicationConfig {
@@ -38,7 +36,7 @@ public class ApplicationConfig {
   }
 
   @Bean
-  public AuditorAware<UUID> auditorAware() {
+  public AuditorAware<Integer> auditorAware() {
     return new ApplicationAuditAware();
   }
 

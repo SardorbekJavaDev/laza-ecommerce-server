@@ -6,8 +6,6 @@ import lombok.Setter;
 import uz.laza.ecommerce.main.Base;
 import uz.laza.ecommerce.main.attach.Attach;
 
-import java.util.UUID;
-
 @Getter
 @Setter
 @Entity
@@ -18,7 +16,7 @@ public class Brand extends Base {
     private String name;
 
     @Column(name = "attach_id")
-    private UUID attachId;
+    private Integer attachId;
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "attach_id",updatable = false,insertable = false)
     private Attach attach;
