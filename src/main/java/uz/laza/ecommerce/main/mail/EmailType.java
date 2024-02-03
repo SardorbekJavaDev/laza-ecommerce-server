@@ -1,4 +1,4 @@
-package uz.laza.ecommerce.main.message;
+package uz.laza.ecommerce.main.mail;
 
 public enum EmailType {
     VERIFICATION, RESET;

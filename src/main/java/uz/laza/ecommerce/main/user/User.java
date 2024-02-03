@@ -35,6 +35,8 @@ public class User implements UserDetails {
     @Column
     private String password;
     @Column
+    private boolean isEnabled;
+    @Column
     private GenderType gender;
 
     @OneToMany(mappedBy = "user")
@@ -86,7 +88,7 @@ public class User implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return this.isEnabled;
     }
 }
 

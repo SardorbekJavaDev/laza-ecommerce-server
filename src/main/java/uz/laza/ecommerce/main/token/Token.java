@@ -12,6 +12,7 @@ import uz.laza.ecommerce.main.user.User;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Table
 public class Token {
 
   @Id
