@@ -16,7 +16,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.UUID;
 
 /**
- * @author Sampson Alfred
+ * @author Sardorbek Yorqulov
  */
 @Slf4j
 @Component
