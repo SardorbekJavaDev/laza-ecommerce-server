@@ -12,6 +12,16 @@ public class LazaEcommerceServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LazaEcommerceServerApplication.class, args);
+		//TODO
+		// ExceptionHandler
+		// Validation for requests
+		// Unit Test
+		// Log4j
+		// Complete full Swagger doc
+
+		// TODO for Upgrade
+		// Extra product config (expiry date, VAT price, percentage)
+        // Add Tag and Category
 	}
 
 }

@@ -1,6 +1,7 @@
 package uz.laza.ecommerce.main.product;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import uz.laza.ecommerce.main.Base;
@@ -24,7 +25,7 @@ public class Product extends Base {
     private Long price; // This price is based on the original price
     @Column
     @Enumerated(EnumType.STRING)
-    private ProductSize size;
+    private ProductSize size; // capacity/bulk
     @Column
     private Integer count;
 
