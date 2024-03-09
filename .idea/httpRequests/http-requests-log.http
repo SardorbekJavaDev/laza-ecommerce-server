@@ -1,0 +1,690 @@
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T224135.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T224009.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T223924.200.json
+
+###
+
+GET http://localhost:8080/api/v1/auth/verify-email/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dGVzdGpvbjcwQGdtYWlsLmNvbSIsImlhdCI6MTcwNjk4MTQ4MiwiZXhwIjoxNzA2OTgyMDgyfQ.Hlbtkp4j7idVga_LfX3bQTAnhELORu7wv4zIdL3XM3Q
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T223124.200.json
+
+###
+
+GET http://localhost:8080/api/v1/auth/verify-email/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dGVzdGpvbjcwQGdtYWlsLmNvbSIsImlhdCI6MTcwNjk4MTMzNiwiZXhwIjoxNzA2OTgxOTM2fQ.SNk-bQMV4kY30rs6tN9r8FGlpELMNDpU8K8f8WoGt38
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T222858.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T222650.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T222008.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T220710.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T215041.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-03T214733.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 141
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "testtestjon70@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sardorbekyorqulov1@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/api/v1/auth/refresh-token
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTQwODQsImV4cCI6MTcwNjgxNDA5NH0.n2nT_A3xFfA78Weh8OXcQxmWl2JXHv_bUYg6AU_O2Sg
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTQwODQsImV4cCI6MTcwNjgxNDA5NH0.n2nT_A3xFfA78Weh8OXcQxmWl2JXHv_bUYg6AU_O2Sg
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTQwODQsImV4cCI6MTcwNjgxNDA5NH0.n2nT_A3xFfA78Weh8OXcQxmWl2JXHv_bUYg6AU_O2Sg
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-02T000128.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-02T000124.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/refresh-token
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM5MjgsImV4cCI6MTcwNjgxMzkyOH0.99YNvppQrvP-WHGw6XKb3MAbP_xszYY48af3DTSJ6Ow
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM5MjgsImV4cCI6MTcwNjgxMzkyOH0.99YNvppQrvP-WHGw6XKb3MAbP_xszYY48af3DTSJ6Ow
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/refresh-token
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM5MjgsImV4cCI6MTcwNjgxMzkyOH0.99YNvppQrvP-WHGw6XKb3MAbP_xszYY48af3DTSJ6Ow
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM5MjgsImV4cCI6MTcwNjgxMzkyOH0.99YNvppQrvP-WHGw6XKb3MAbP_xszYY48af3DTSJ6Ow
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-01T235848.200.json
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM3NjMsImV4cCI6MTcwNjgxNTU2M30.X9uhL68JayNuvo8laFKtObwi811Ql8YNwfsOAGPhbD8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T235736.200.txt
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM3NjMsImV4cCI6MTcwNjgxNTU2M30.X9uhL68JayNuvo8laFKtObwi811Ql8YNwfsOAGPhbD8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T235730.200.txt
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTM3NjMsImV4cCI6MTcwNjgxNTU2M30.X9uhL68JayNuvo8laFKtObwi811Ql8YNwfsOAGPhbD8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T235619.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-01T235603.200.json
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTMyNjIsImV4cCI6MTcwNjg5OTY2Mn0.DjlcWze_TDPN6_FG1UL4Da2eLJf75R_mhfhKWqFFWXc
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T234920.200.txt
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTMyNjIsImV4cCI6MTcwNjg5OTY2Mn0.DjlcWze_TDPN6_FG1UL4Da2eLJf75R_mhfhKWqFFWXc
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T234755.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-01T234742.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/refresh-token
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTMxOTUsImV4cCI6MTcwNjg5OTU5NX0.XSVrHb_mYHA5XrIC7L-hrXJZq0EC1xl2vpUIG8GJ9Rw
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTMxOTUsImV4cCI6MTcwNjg5OTU5NX0.XSVrHb_mYHA5XrIC7L-hrXJZq0EC1xl2vpUIG8GJ9Rw
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTMxOTUsImV4cCI6MTcwNjg5OTU5NX0.XSVrHb_mYHA5XrIC7L-hrXJZq0EC1xl2vpUIG8GJ9Rw
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-01T234635.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/refresh-token
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTI4OTEsImV4cCI6MTcwNjg5OTI5MX0.HP6TQtNpc_O8DL--yNZ3q5xHT0B14W_DNhxYtpAMOaM
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T234212.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-01T234131.200.json
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTEzMTcsImV4cCI6MTcwNjg5NzcxN30.gBQGJQur2lPLixgaWgcB5WYPzZM7J1G0JUI6abxpk6s
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T231517-1.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email":  "sarri@gmail.com",
+  "password": "newPassword"
+}
+
+<> 2024-02-01T231517.200.json
+
+###
+
+PATCH http://localhost:8080/api/v1/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTEzMTYsImV4cCI6MTcwNjg5NzcxNn0.6f2t_i_LVv5mLs6TXgtYaWG4xCH-PUc7n_nwaZAZA0E
+Content-Length: 109
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "currentPassword": "password",
+  "newPassword": "newPassword",
+  "confirmationPassword":  "newPassword"
+}
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTEzMTYsImV4cCI6MTcwNjg5NzcxNn0.6f2t_i_LVv5mLs6TXgtYaWG4xCH-PUc7n_nwaZAZA0E
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-01T231517.200.txt
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 133
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password",
+  "role":  "ADMIN"
+}
+
+<> 2024-02-01T231516.200.json
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 113
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password"
+}
+
+<> 2024-02-01T231347.200.json
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer {{new-auth-token}}
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email":  "sarri@gmail.com",
+  "password": "newPassword"
+}
+
+###
+
+PATCH http://localhost:8080/api/v1/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTEyMDEsImV4cCI6MTcwNjg5NzYwMX0.vNCSY8YI8U8gzUhMLd0K_uU9hhEo1kXGMIMD_uht26k
+Content-Length: 109
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "currentPassword": "password",
+  "newPassword": "newPassword",
+  "confirmationPassword":  "newPassword"
+}
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTEyMDEsImV4cCI6MTcwNjg5NzYwMX0.vNCSY8YI8U8gzUhMLd0K_uU9hhEo1kXGMIMD_uht26k
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+Content-Length: 113
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Sardorbek",
+  "lastname": "Yorqulov",
+  "email":  "sarri@gmail.com",
+  "password": "password"
+}
+
+<> 2024-02-01T231321.200.json
+
+###
+
+GET http://localhost:8080/api/v1/demo-controller
+Authorization: Bearer {{new-auth-token}}
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email":  "sarri@gmail.com",
+  "password": "newPassword"
+}
+
+###
+
+PATCH http://localhost:8080/api/v1/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJyaUBnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTExODMsImV4cCI6MTcwNjg5NzU4M30._6zE45utCqhPnjhHzRywTL6POlJ3S22S6UPdh9gqEeE
+Content-Length: 109
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "currentPassword": "password",
+  "newPassword": "newPassword",
+  "confirmationPassword":  "newPassword"
+}
+
+###
+
