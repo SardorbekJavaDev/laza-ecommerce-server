@@ -1,4 +1,4 @@
-package uz.laza.ecommerce.main.payment;
+package uz.laza.ecommerce.main.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,10 +13,11 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PaymentResponse {
+public class OrderResponse {
 
-    private Long totalPrice;
-    private PaymentStatus status;
+    private Integer count;
+    private Integer productId;
+    private Long price;
     private LocalDateTime lastModified;
     private LocalDateTime createDate;
 

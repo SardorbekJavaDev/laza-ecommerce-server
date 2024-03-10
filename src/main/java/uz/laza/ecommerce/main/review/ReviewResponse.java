@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReviewResponse extends Base {
+public class ReviewResponse {
 
     private double rating;
     private String description;

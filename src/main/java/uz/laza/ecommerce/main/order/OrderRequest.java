@@ -1,4 +1,4 @@
-package uz.laza.ecommerce.main.payment;
+package uz.laza.ecommerce.main.order;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EnumType;
@@ -14,8 +14,9 @@ import uz.laza.ecommerce.main.Base;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PaymentRequest {
+public class OrderRequest {
 
-    private Long totalPrice;
+    private Integer count;
+    private Integer productId;
 
 }

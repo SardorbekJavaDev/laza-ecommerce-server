@@ -16,7 +16,7 @@ public class Order extends Base {
     @Column
     private Long price;
     @Column
-    private Long count;
+    private Integer count;
     @Column
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
@@ -33,6 +33,6 @@ public class Order extends Base {
     @JoinColumn(name = "user_id", insertable = false, updatable = false)
     private User user;
 
-//    firstly user have to order, next we response payment.json, next if user done payment, next we complete user's order
+//    firstly user have to order, next we are response payment.json, next if user done payment, next we complete user's order
 
 }

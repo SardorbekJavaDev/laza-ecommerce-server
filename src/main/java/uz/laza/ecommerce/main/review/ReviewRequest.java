@@ -11,7 +11,7 @@ import uz.laza.ecommerce.main.user.User;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReviewRequest extends Base {
+public class ReviewRequest {
 
     private double rating;
     private String description;
