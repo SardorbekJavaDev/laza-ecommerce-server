@@ -28,7 +28,7 @@ public class Base {
             nullable = false,
             updatable = false
     )
-    private LocalDateTime createDate;
+    private LocalDateTime createdDate;
 
     @LastModifiedDate
     @Column(name = "last_modified", insertable = false)

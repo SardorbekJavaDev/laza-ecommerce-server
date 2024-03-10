@@ -22,6 +22,9 @@ public class LazaEcommerceServerApplication {
 		// TODO for Upgrade
 		// Extra product config (expiry date, VAT price, percentage)
         // Add Tag and Category
+		// Add Stripe/MasterCard and upgrade Payment
+
+		// Additionally controller methods, check all controller classes
 	}
 
 }

@@ -25,4 +25,6 @@ public class Payment extends Base {
     @JoinColumn(name = "user_id", insertable = false, updatable = false)
     private User user;
 
+    // TODO I have to add payment type, like CARD/CASH
+
 }
