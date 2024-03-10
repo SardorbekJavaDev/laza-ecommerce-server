@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductService {
 
-    private final ProductRepository productRepository;
+    private final ProductRepository repository;
 
     public ProductResponse create(ProductRequest request) {
         Product product = new Product();
@@ -23,7 +23,7 @@ public class ProductService {
         product.setSize(request.getSize());
         product.setCount(request.getCount());
         product.setAttachId(request.getAttachId());
-        return toDTO(productRepository.save(product));
+        return toDTO(repository.save(product));
     }
 
     public ProductResponse getById(Integer id) {
@@ -40,12 +40,12 @@ public class ProductService {
         product.setCount(request.getCount());
         product.setAttachId(request.getAttachId());
 
-        return toDTO(productRepository.save(product));
+        return toDTO(repository.save(product));
     }
 
     public ProductResponse delete(Integer id) {
         Product product = get(id);
-        productRepository.delete(product);
+        repository.delete(product);
         return null;
     }
 
@@ -54,7 +54,7 @@ public class ProductService {
 
         List<ProductResponse> dtoList = new ArrayList<>();
 
-        Page<Product> entityPage = productRepository.findAll(pageable);
+        Page<Product> entityPage = repository.findAll(pageable);
         entityPage.forEach(entity -> {
             dtoList.add(toDTO(entity));
         });
@@ -63,7 +63,7 @@ public class ProductService {
     }
 
     public Product get(Integer id) {
-        return productRepository.findById(id)
+        return repository.findById(id)
                 .orElseThrow(() -> {
                     //todo log
                     return new ItemNotFoundException("Not found !");

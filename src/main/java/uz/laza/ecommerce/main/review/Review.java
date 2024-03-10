@@ -18,7 +18,7 @@ public class Review extends Base {
     private double rating;
 
     @Column(name = "review_description")
-    private String reviewDescription;
+    private String description;
 
     @Column(name = "user_id", nullable = false)
     private Integer userId;
