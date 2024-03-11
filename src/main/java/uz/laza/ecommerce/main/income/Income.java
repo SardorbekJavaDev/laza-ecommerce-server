@@ -3,7 +3,7 @@ package uz.laza.ecommerce.main.income;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import uz.laza.ecommerce.main.Base;
+import uz.laza.ecommerce.base.Base;
 import uz.laza.ecommerce.main.product.Product;
 import uz.laza.ecommerce.main.user.User;
 

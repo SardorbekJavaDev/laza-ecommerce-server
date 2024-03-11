@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import uz.laza.ecommerce.main.Base;
 import uz.laza.ecommerce.main.address.Address;
 import uz.laza.ecommerce.main.attach.Attach;
 import uz.laza.ecommerce.main.token.Token;

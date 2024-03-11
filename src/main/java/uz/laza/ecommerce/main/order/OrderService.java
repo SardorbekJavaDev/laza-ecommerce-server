@@ -62,7 +62,7 @@ public class OrderService {
                 .price(entity.getPrice())
                 .count(entity.getCount())
                 .lastModified(entity.getLastModified())
-                .createDate(entity.getCreatedDate())
+                .createdDate(entity.getCreatedDate())
                 .build();
     }
 

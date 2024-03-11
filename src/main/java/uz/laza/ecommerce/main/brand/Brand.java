@@ -3,7 +3,7 @@ package uz.laza.ecommerce.main.brand;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import uz.laza.ecommerce.main.Base;
+import uz.laza.ecommerce.base.Base;
 import uz.laza.ecommerce.main.attach.Attach;
 
 @Getter

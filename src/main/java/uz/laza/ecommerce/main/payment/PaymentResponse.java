@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import uz.laza.ecommerce.main.Base;
 
 import java.time.LocalDateTime;
 
@@ -15,9 +14,10 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class PaymentResponse {
 
+    private Integer id;
     private Long totalPrice;
     private PaymentStatus status;
+    private LocalDateTime createdDate;
     private LocalDateTime lastModified;
-    private LocalDateTime createDate;
 
 }

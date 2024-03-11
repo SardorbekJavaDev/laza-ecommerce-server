@@ -55,7 +55,7 @@ public class PaymentService {
     public PaymentResponse toDTO(Payment entity) {
         return PaymentResponse.builder()
                 .totalPrice(entity.getTotalPrice())
-                .createDate(entity.getCreatedDate())
+                .createdDate(entity.getCreatedDate())
                 .lastModified(entity.getLastModified())
                 .status(entity.getStatus())
                 .build();

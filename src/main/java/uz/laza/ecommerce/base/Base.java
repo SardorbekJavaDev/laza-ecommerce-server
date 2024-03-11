@@ -1,4 +1,4 @@
-package uz.laza.ecommerce.main;
+package uz.laza.ecommerce.base;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;

@@ -6,7 +6,7 @@ import lombok.Setter;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import uz.laza.ecommerce.main.Base;
+import uz.laza.ecommerce.base.Base;
 
 @Setter
 @Getter

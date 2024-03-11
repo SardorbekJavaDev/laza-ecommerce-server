@@ -1,10 +1,6 @@
 package uz.laza.ecommerce.main.review;
 
-import jakarta.persistence.*;
 import lombok.*;
-import uz.laza.ecommerce.main.Base;
-import uz.laza.ecommerce.main.product.Product;
-import uz.laza.ecommerce.main.user.User;
 
 import java.time.LocalDateTime;
 
@@ -15,11 +11,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class ReviewResponse {
 
+    private Integer id;
     private double rating;
     private String description;
     private Integer productId;
+    private LocalDateTime createdDate;
     private LocalDateTime lastModified;
-    private LocalDateTime createDate;
-
 
 }

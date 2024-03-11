@@ -1,10 +1,6 @@
 package uz.laza.ecommerce.main.order;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import uz.laza.ecommerce.main.Base;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
@@ -15,10 +11,12 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class OrderResponse {
 
+    private Integer id;
     private Integer count;
     private Integer productId;
     private Long price;
+    private LocalDateTime createdDate;
     private LocalDateTime lastModified;
-    private LocalDateTime createDate;
+
 
 }
