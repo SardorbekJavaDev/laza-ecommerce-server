@@ -16,6 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 public class ProductResponse {
 
+    private Integer id;
     private String name;
     private String title;
     private String description;
@@ -23,6 +24,7 @@ public class ProductResponse {
     private ProductSize size;
     private Integer count;
     private Integer attachId;
-    private LocalDateTime createDate;
+    private LocalDateTime createdDate;
+    private LocalDateTime lastModified;
 
 }
