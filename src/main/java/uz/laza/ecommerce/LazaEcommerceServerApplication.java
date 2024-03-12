@@ -13,6 +13,7 @@ public class LazaEcommerceServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LazaEcommerceServerApplication.class, args);
 		//TODO
+		// Retrieve(get) UserID in JWT and verify every request belongs to true owner
 		// ExceptionHandler
 		// Validation for requests
 		// Unit Test

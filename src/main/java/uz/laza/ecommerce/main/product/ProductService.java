@@ -72,13 +72,16 @@ public class ProductService {
 
     public ProductResponse toDTO(Product entity) {
         return ProductResponse.builder()
+                .id(entity.getId())
                 .name(entity.getName())
                 .title(entity.getTitle())
-                .price(entity.getPrice())
                 .description(entity.getDescription())
-                .count(entity.getCount())
+                .price(entity.getPrice())
                 .size(entity.getSize())
+                .count(entity.getCount())
                 .attachId(entity.getAttachId())
+                .createdDate(entity.getCreatedDate())
+                .lastModified(entity.getLastModified())
                 .build();
     }
 

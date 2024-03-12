@@ -12,8 +12,9 @@ import uz.laza.ecommerce.main.user.User;
 @Entity
 @Table(name = "income")
 public class Income extends Base {
+
     @Column
-    private Long originalPrice;  // only for admin and we use this to calculate the profit
+    private Long totalPrice;  // this price calculated using VAT + profitPer + count * originalPrice
     @Column
     private Integer count;
 
@@ -31,4 +32,5 @@ public class Income extends Base {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", insertable = false, updatable = false)
     private User user;
+
 }

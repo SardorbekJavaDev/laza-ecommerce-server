@@ -19,11 +19,4 @@ public class ProductRequest {
     private Integer count;
     private Integer attachId;
 
-    public ProductRequest(String name, String title, Long price, ProductSize size, Integer count) {
-        this.name = name;
-        this.title = title;
-        this.price = price;
-        this.size = size;
-        this.count = count;
-    }
 }
