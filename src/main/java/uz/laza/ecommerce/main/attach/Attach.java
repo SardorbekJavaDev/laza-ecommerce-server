@@ -20,10 +20,13 @@ public class Attach extends Base {
     @Column
     private String path;
 
+    @Column
+    private String url;
+
     @Column(name = "origin_name")
     private String originName;
 
     @Column
-    private Long size;
+    private Long size;  // TODO automatic calculate file size
 
 }

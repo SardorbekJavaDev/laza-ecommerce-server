@@ -146,7 +146,7 @@ public class AttachService {
         response.setId(entity.getId());
         response.setPath(entity.getPath());
         response.setOriginalName(entity.getOriginName());
-        response.setUrl(domainName + "attach/download/" + entity.getId());
+        response.setUrl(entity.getUrl());
         response.setCreatedDate(entity.getCreatedDate());
         response.setFileSize(entity.getSize());
         return response;
@@ -157,6 +157,7 @@ public class AttachService {
         entity.setOriginName(file.getOriginalFilename());
         entity.setExtension(extension);
         entity.setSize(file.getSize());
+        entity.setUrl(domainName + "attach/download/" + entity.getId());
         attachRepository.save(entity);
         return entity;
     }
