@@ -20,10 +20,10 @@ public class BrandService {
     private final AttachService attachService;
 
     public BrandResponse create(BrandRequest request) {
-        Brand address = new Brand();
-        address.setName(request.getName());
-        address.setAttachId(request.getAttachId());
-        return toDTO(repository.save(address));
+        Brand brand = new Brand();
+        brand.setName(request.getName());
+        brand.setAttachId(request.getAttachId());
+        return toDTO(repository.save(brand));
     }
 
     public BrandResponse getById(Integer id) {
@@ -31,15 +31,15 @@ public class BrandService {
     }
 
     public BrandResponse update(Integer id, BrandRequest request) {
-        Brand address = get(id);
-        address.setName(request.getName());
-        address.setAttachId(request.getAttachId());
-        return toDTO(repository.save(address));
+        Brand brand = get(id);
+        brand.setName(request.getName());
+        brand.setAttachId(request.getAttachId());
+        return toDTO(repository.save(brand));
     }
 
     public BrandResponse delete(Integer id) {
-        Brand address = get(id);
-        repository.delete(address);
+        Brand brand = get(id);
+        repository.delete(brand);
         return null;
     }
 
