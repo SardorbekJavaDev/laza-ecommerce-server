@@ -38,4 +38,10 @@ application:
         expiration: 604800000 # 7 days
       verification-token:
         expiration: 600000  # 10 min
+  attach:
+    upload:
+      folder: data
 
+  server:
+    domain:
+      name: tuitpress.uz
