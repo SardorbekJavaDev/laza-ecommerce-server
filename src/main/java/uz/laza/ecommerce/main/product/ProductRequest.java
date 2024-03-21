@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import uz.laza.ecommerce.main.user.GenderType;
 
 @Data
 @Builder
@@ -17,6 +18,7 @@ public class ProductRequest {
     private Long price;
     private ProductSize size;
     private Integer count;
+    private GenderType genderType;
     private Integer attachId;
 
 }

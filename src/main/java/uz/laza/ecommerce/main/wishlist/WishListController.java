@@ -26,8 +26,8 @@ public class WishListController {
         return ResponseEntity.ok(wishListService.delete(id));
     }
 
-    @GetMapping("/") // TODO make by category
-    public ResponseEntity<?> getProductList(@RequestParam(value = "page", defaultValue = "0") int page,
+    @GetMapping("/") // TODO make by user ID and Product ID
+    public ResponseEntity<?> getAll(@RequestParam(value = "page", defaultValue = "0") int page,
                                                                     @RequestParam(value = "size", defaultValue = "5") int size) {
         return ResponseEntity.ok(wishListService.paginationList(page, size));
     }

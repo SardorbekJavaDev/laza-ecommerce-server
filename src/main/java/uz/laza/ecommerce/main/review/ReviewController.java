@@ -31,7 +31,7 @@ public class ReviewController {
         return ResponseEntity.ok(reviewService.delete(id));
     }
 
-    @GetMapping("/") // TODO make by category
+    @GetMapping("/") // TODO make by user ID, product ID, rating
     public ResponseEntity<?> getList(@RequestParam(value = "page", defaultValue = "0") int page,
                                                                     @RequestParam(value = "size", defaultValue = "5") int size) {
         return ResponseEntity.ok(reviewService.getList(page, size));

@@ -1,14 +1,9 @@
 package uz.laza.ecommerce.main.income;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import uz.laza.ecommerce.main.product.Product;
 import uz.laza.ecommerce.main.product.ProductResponse;
 
 import java.time.LocalDateTime;

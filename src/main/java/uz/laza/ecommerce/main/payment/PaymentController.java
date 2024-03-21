@@ -26,7 +26,7 @@ public class PaymentController {
         return ResponseEntity.ok(paymentService.delete(id));
     }
 
-    @GetMapping("/") // TODO make by category
+    @GetMapping("/") // TODO make by user ID (getAll methodi faqat userni o'ziga tegishlisini chiqarib berishi lozim) status
     public ResponseEntity<?> getList(@RequestParam(value = "page", defaultValue = "0") int page,
                                      @RequestParam(value = "size", defaultValue = "5") int size) {
         return ResponseEntity.ok(paymentService.getList(page, size));

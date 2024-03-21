@@ -26,10 +26,17 @@ public class OrderController {
         return ResponseEntity.ok(orderService.delete(id));
     }
 
-    @GetMapping("/") // TODO make by category
+    @GetMapping("/") // all
     public ResponseEntity<?> getList(@RequestParam(value = "page", defaultValue = "0") int page,
                                      @RequestParam(value = "size", defaultValue = "5") int size) {
         return ResponseEntity.ok(orderService.getList(page, size));
+    }
+
+    @GetMapping("/{status}") // by status
+    public ResponseEntity<?> getListByStatus(@RequestParam(value = "page", defaultValue = "0") int page,
+                                             @RequestParam(value = "size", defaultValue = "5") int size,
+                                             @PathVariable String status) {
+        return ResponseEntity.ok(orderService.getListByStatus(status, page, size));
     }
 
 

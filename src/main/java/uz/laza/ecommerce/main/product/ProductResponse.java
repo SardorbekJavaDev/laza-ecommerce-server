@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import uz.laza.ecommerce.main.attach.Attach;
+import uz.laza.ecommerce.main.user.GenderType;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -23,6 +24,7 @@ public class ProductResponse {
     private Long price; // This price is based on the original price
     private ProductSize size;
     private Integer count;
+    private GenderType genderType;
     private Integer attachId;
     private LocalDateTime createdDate;
     private LocalDateTime lastModified;

@@ -47,7 +47,6 @@ public class PaymentService {
     public Payment get(Integer id) {
         return repository.findById(id)
                 .orElseThrow(() -> {
-                    //todo log
                     return new ItemNotFoundException("Not found !");
                 });
     }

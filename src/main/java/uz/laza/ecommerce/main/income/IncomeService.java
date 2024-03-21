@@ -1,8 +1,10 @@
 package uz.laza.ecommerce.main.income;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
+import uz.laza.ecommerce.auditing.ApplicationAuditAware;
 import uz.laza.ecommerce.exception.ItemNotFoundException;
 import uz.laza.ecommerce.main.product.Product;
 import uz.laza.ecommerce.main.product.ProductResponse;
@@ -17,6 +19,7 @@ public class IncomeService {
 
     private final IncomeRepository repository;
     private final ProductService productService;
+    private final AuditorAware<Integer> auditorAware;
 
     public IncomeResponse create(IncomeRequest request) {
         Product product = productService.get(request.getProductId());
@@ -25,8 +28,8 @@ public class IncomeService {
         income.setCount(request.getCount());
         income.setProductId(request.getProductId());
         income.setProfitPer(request.getProfitPer());
-        income.setUserId(income.getCreatedBy()); // TODO get userID out of JWT
-        income.setTotalPrice((request.getProfitPer() * product.getPrice() / 100 + product.getPrice())* request.getCount());
+        income.setUserId(auditorAware.getCurrentAuditor().orElseThrow(() -> new ItemNotFoundException("Owner Id not found")));
+        income.setTotalPrice((request.getProfitPer() * product.getPrice() / 100 + product.getPrice()) * request.getCount());
         return toDTO(repository.save(income));
     }
 
@@ -41,7 +44,7 @@ public class IncomeService {
         income.setCount(request.getCount());
         income.setProductId(request.getProductId());
         income.setProfitPer(request.getProfitPer());
-        income.setTotalPrice((request.getProfitPer() * product.getPrice() / 100 + product.getPrice())* request.getCount());
+        income.setTotalPrice((request.getProfitPer() * product.getPrice() / 100 + product.getPrice()) * request.getCount());
 
         return toDTO(repository.save(income));
     }
@@ -66,7 +69,6 @@ public class IncomeService {
     public Income get(Integer id) {
         return repository.findById(id)
                 .orElseThrow(() -> {
-                    //todo log
                     return new ItemNotFoundException("Not found !");
                 });
     }

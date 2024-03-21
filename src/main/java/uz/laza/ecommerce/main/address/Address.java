@@ -14,7 +14,6 @@ import java.util.Set;
 @Entity
 @Table(name = "address")
 public class Address extends Base {
-    //TODO All countries and
     @Column
     private String name;
     @Column

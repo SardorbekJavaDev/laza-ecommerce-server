@@ -55,7 +55,6 @@ public class ReviewService {
     public Review get(Integer id) {
         return repository.findById(id)
                 .orElseThrow(() -> {
-                    //todo log
                     return new ItemNotFoundException("Not found !");
                 });
     }

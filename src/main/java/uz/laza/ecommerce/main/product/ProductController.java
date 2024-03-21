@@ -32,11 +32,22 @@ public class ProductController {
         return ResponseEntity.ok(productService.delete(id));
     }
 
-    @GetMapping("/") // TODO make by category
-    public ResponseEntity<?> getProductList(@RequestParam(value = "page", defaultValue = "0") int page,
-                                                                    @RequestParam(value = "size", defaultValue = "5") int size) {
+    @GetMapping("/") //
+    public ResponseEntity<?> getAll(
+            @RequestParam(value = "page", defaultValue = "0") int page,
+            @RequestParam(value = "size", defaultValue = "5") int size) {
         return ResponseEntity.ok(productService.paginationList(page, size));
     }
 
+    @GetMapping("/generic") // by brand and gender
+    public ResponseEntity<?> getAllGeneric(
+            @RequestParam(value = "gender", defaultValue = "MALE") String gender,
+            @RequestParam(value = "brandId") Integer brandId,
+            @RequestParam(value = "page", defaultValue = "0") int page,
+            @RequestParam(value = "size", defaultValue = "5") int size
+    ) {
+
+        return ResponseEntity.ok(productService.paginationListGeneric(brandId, gender, page, size));
+    }
 
 }

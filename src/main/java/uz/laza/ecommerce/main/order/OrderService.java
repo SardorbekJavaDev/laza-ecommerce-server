@@ -48,10 +48,23 @@ public class OrderService {
         return new PageImpl<>(dtoList, pageable, entityPage.getTotalElements());
     }
 
+    public PageImpl<OrderResponse> getListByStatus(String status, int page, int size) {
+        Pageable pageable = PageRequest.of(page, size, Sort.by(Sort.Direction.DESC, "createdDate"));
+
+        List<OrderResponse> dtoList = new ArrayList<>();
+
+        Page<Order> entityPage = repository.findAllByStatus(OrderStatus.valueOf(status), pageable);
+        entityPage.forEach(entity -> {
+            dtoList.add(toDTO(entity));
+        });
+
+        return new PageImpl<>(dtoList, pageable, entityPage.getTotalElements());
+    }
+
+
     public Order get(Integer id) {
         return repository.findById(id)
                 .orElseThrow(() -> {
-                    //todo log
                     return new ItemNotFoundException("Not found !");
                 });
     }
@@ -65,6 +78,5 @@ public class OrderService {
                 .createdDate(entity.getCreatedDate())
                 .build();
     }
-
 
 }

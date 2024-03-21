@@ -58,7 +58,6 @@ public class CardService {
     public Card get(Integer id) {
         return repository.findById(id)
                 .orElseThrow(() -> {
-                    //todo log
                     return new ItemNotFoundException("Not found !");
                 });
     }
